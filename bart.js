@@ -18,6 +18,7 @@ function fetchEtas(station = "embr") {
 
 
 fetchEtas();
+setInterval(fetchEtas, 3000);
 
 
 
@@ -56,13 +57,13 @@ function displayEtds(platforms){
 
     platforms[1].forEach(dest =>{
         name = "<div id=line> <span>" + dest.name + ": " + "</span>";
-        time = "<span>" + dest.times[0] + "," + dest.times[1] + " min";
+        time = "<span>" + dest.times[0] + ", " + dest.times[1] + " min";
         str += name + time + "</div>";
     });
 
     platforms[2].forEach(dest =>{
         name = "<div id=line> <span>" + dest.name + ": " + "</span>";
-        time = "<span>" + dest.times[0] + "," + dest.times[1] + " min";
+        time = "<span>" + dest.times[0] + ", " + dest.times[1] + " min";
         str2 += name + time + "</div>";
     });
 
