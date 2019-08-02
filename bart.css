@@ -5,6 +5,7 @@ body{
     height: 100vh;
     background: url(bart.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 #struts{
