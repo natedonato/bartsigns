@@ -38,16 +38,3 @@ body{
     display: flex;
     justify-content: space-between;
 }
-
-/* 
-
-@font-face {
-    font-family: 'the_led_display_stregular';
-
-    font-size: 60px;
-    src: url('the_led_display_st-webfont.woff2') format('woff2'),
-         url('the_led_display_st-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-} */

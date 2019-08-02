@@ -3,6 +3,7 @@ var etds;
 var res;
 var platforms;
 
+//this is the public bart API key not my own personal key!
 function fetchEtas(station = "embr") {
     return (fetch(`https://api.bart.gov/api/etd.aspx?cmd=etd&orig=${station}&key=MW9S-E7SL-26DU-VV8V&json=y`)
         .then(function (response) {
